@@ -4,3 +4,8 @@
   display: flex;
   align-items: center;
 }
+
+.grid {
+  grid-template-columns: repeat(12, auto);
+  grid-template-rows: repeat(2, auto);
+}

@@ -109,6 +109,13 @@
           align-items: center;
 }
 
+.grid {
+  -ms-grid-columns: (auto)[12];
+      grid-template-columns: repeat(12, auto);
+  -ms-grid-rows: (auto)[2];
+      grid-template-rows: repeat(2, auto);
+}
+
 nav > ul {
   display: -webkit-box;
   display: -ms-flexbox;
