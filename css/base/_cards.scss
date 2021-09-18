@@ -3,7 +3,7 @@
 .pages {
   border-radius: 8px;
   position: relative;
-  div{
+  .bottom-cards{
     position: absolute;
     top: 20%;
     left: 10%;
@@ -12,6 +12,11 @@
     position: absolute;
     bottom: 20%;
     right: 10%;
+  }
+  .welcome-card {
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
   }
 }
 
