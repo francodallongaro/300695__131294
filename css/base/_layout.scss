@@ -15,12 +15,12 @@
   }
   
   .welcome {
-    grid-column: 1 / 6;
+    grid-column: 1 / 7;
     grid-row: 1 / 2;
   }
   
   .welcome-image{
-    grid-column: 6 / 9;
+    grid-column: 7 / 9;
     grid-row: 1 / 2;
   }
   
@@ -54,5 +54,11 @@
   }
   .projects {
     display: none;
+  }
+
+  .welcome-image{
+    // position: absolute;
+    // top: 20%;
+    // right: 10%;
   }
 }

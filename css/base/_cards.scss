@@ -22,13 +22,33 @@
   .about-me {
     border-bottom-left-radius: 200px;
     background: $color-2;
+    &:hover{
+      box-shadow: 0 0 32px 3px rgba(0, 0, 0, 0.267);
+      -webkit-box-shadow: 0 0 32px 3px rgba(0, 0, 0, 0.267);
+      -moz-box-shadow: 0 0 32px 3px rgba(0, 0, 0, 0.267);
+    }
   }
   .contact {
     background: $color-3;
+    &:hover{
+      box-shadow: 0 0 32px 3px rgba(0, 0, 0, 0.267);
+      -webkit-box-shadow: 0 0 32px 3px rgba(0, 0, 0, 0.267);
+      -moz-box-shadow: 0 0 32px 3px rgba(0, 0, 0, 0.267);
+    }
   }
   .projects {
     border-bottom-right-radius: 350px;
     background: $color-4;
+    &:hover{
+      box-shadow: 0 0 32px 3px rgba(0, 0, 0, 0.267);
+      -webkit-box-shadow: 0 0 32px 3px rgba(0, 0, 0, 0.267);
+      -moz-box-shadow: 0 0 32px 3px rgba(0, 0, 0, 0.267);
+    }
   }
 }
 
+@media only screen and (max-width: $break-1) {
+  .welcome-image {
+    background: url(../assets/img/camila.jpeg);
+  }
+}
