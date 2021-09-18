@@ -2,6 +2,17 @@
 
 .pages {
   border-radius: 8px;
+  position: relative;
+  div{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+  }
+  .more-links {
+    position: absolute;
+    bottom: 20%;
+    right: 10%;
+  }
 }
 
 @media only screen and (min-width: $break-1) {
