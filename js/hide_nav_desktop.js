@@ -1,0 +1,1 @@
+window.innerWidth > 768 ? $('nav').hide() :$('nav').show()
