@@ -1,0 +1,36 @@
+.welcome-title {
+  position: absolute;
+  bottom: 10%;
+  left: 8%;
+  font-size: 5em;
+  line-height: 73.2%;
+}
+
+.about-title {
+  font-size: 5em;
+  line-height: 90%;
+  padding-top: 2em;
+  padding-bottom: 30px;
+}
+.about-description {
+  width: 60%;
+}
+
+.lets-talk {
+  display: flex;
+  position: absolute;
+  bottom: 60px;
+  right: 40px;
+}
+.lest-elements {
+  padding: 5px 20px;
+  text-decoration: none;
+  color: black;
+}
+.copyright {
+  position: absolute;
+  bottom: 20px;
+  right: 40%;
+  left: 40%;
+  text-align: center;
+}

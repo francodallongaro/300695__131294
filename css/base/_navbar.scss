@@ -1,0 +1,13 @@
+nav > ul {
+  display: flex;
+  position: absolute;
+  top: 5%;
+  right: 5%;
+}
+
+.navbar-element {
+  padding: 10px 30px;
+  text-decoration: none;
+  list-style-type: none;
+  color: black;
+}
