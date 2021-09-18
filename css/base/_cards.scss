@@ -1,35 +1,35 @@
 @import "variables";
 
 .pages {
-  border-radius: 15px;
+  border-radius: 8px;
 }
 
 .welcome {
   background: $color-1;
-  height: 100%;
+  // height: 100%;
   border-top-left-radius: 200px;
 }
 .welcome-image {
-  height: 180px;
-  width: 180px;
+  // height: 180px;
+  // width: 180px;
   object-fit: cover;
   /* background-image: url("assets/img/cami.GIF"); */
 }
 .welcome-description {
   background: $color-5;
-  height: 100%;
+  // height: 100%;
 }
 .about-me {
   border-bottom-left-radius: 200px;
   background: $color-2;
-  height: 100%;
+  // height: 100%;
 }
 .contact {
   background: $color-3;
-  height: 100%;
+  // height: 100%;
 }
 .projects {
   border-bottom-right-radius: 350px;
-  height: 100%;
+  // height: 100%;
   background: $color-4;
 }

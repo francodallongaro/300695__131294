@@ -14,7 +14,7 @@
   #home,
   #about-me {
     height: 100vh;
-    padding: 40px;
+    padding: 4% 7%;
   }
 }
 
@@ -61,18 +61,15 @@
 }
 
 .pages {
-  border-radius: 15px;
+  border-radius: 8px;
 }
 
 .welcome {
   background: rgba(233, 238, 217, 0.5);
-  height: 100%;
   border-top-left-radius: 200px;
 }
 
 .welcome-image {
-  height: 180px;
-  width: 180px;
   -o-object-fit: cover;
      object-fit: cover;
   /* background-image: url("assets/img/cami.GIF"); */
@@ -80,23 +77,19 @@
 
 .welcome-description {
   background: #f7f7f7;
-  height: 100%;
 }
 
 .about-me {
   border-bottom-left-radius: 200px;
   background: #eff4dd;
-  height: 100%;
 }
 
 .contact {
   background: rgba(209, 223, 202, 0.7);
-  height: 100%;
 }
 
 .projects {
   border-bottom-right-radius: 350px;
-  height: 100%;
   background: rgba(214, 221, 190, 0.8);
 }
 
@@ -110,6 +103,8 @@
 }
 
 .grid {
+  display: -ms-grid;
+  display: grid;
   -ms-grid-columns: (auto)[12];
       grid-template-columns: repeat(12, auto);
   -ms-grid-rows: (auto)[2];
@@ -120,26 +115,26 @@
 
 .welcome {
   -ms-grid-column: 1;
-  -ms-grid-column-span: 4;
-  grid-column: 1 / 5;
+  -ms-grid-column-span: 5;
+  grid-column: 1 / 6;
   -ms-grid-row: 1;
   -ms-grid-row-span: 1;
   grid-row: 1 / 2;
 }
 
 .welcome-image {
-  -ms-grid-column: 5;
+  -ms-grid-column: 6;
   -ms-grid-column-span: 3;
-  grid-column: 5 / 8;
+  grid-column: 6 / 9;
   -ms-grid-row: 1;
   -ms-grid-row-span: 1;
   grid-row: 1 / 2;
 }
 
 .welcome-description {
-  -ms-grid-column: 8;
+  -ms-grid-column: 9;
   -ms-grid-column-span: 4;
-  grid-column: 8 / 12;
+  grid-column: 9 / 13;
   -ms-grid-row: 1;
   -ms-grid-row-span: 1;
   grid-row: 1 / 2;
