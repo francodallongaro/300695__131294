@@ -19,84 +19,98 @@
   }
 }
 
-.welcome-main-title {
-  font-size: 5em;
-  line-height: 55px;
-  font-weight: 600;
-  color: #A6AE8A;
+@media only screen and (max-width: 768px) {
+  #home,
+  #about-me {
+    padding: 0 5%;
+  }
 }
 
-.welcome-hi {
-  font-family: 'Caveat', cursive;
-  font-size: 2em;
-  padding-bottom: 10px;
-  font-weight: light;
+@media only screen and (min-width: 768px) {
+  .welcome-main-title {
+    font-size: 5em;
+    line-height: 55px;
+    font-weight: 600;
+    color: #A6AE8A;
+  }
+  .welcome-hi {
+    font-family: 'Caveat', cursive;
+    font-size: 2em;
+    padding-bottom: 10px;
+    font-weight: light;
+  }
+  .name {
+    font-size: 3em;
+    line-height: 40px;
+    font-weight: 600;
+    color: #B6B9AB;
+  }
+  .profession {
+    font-size: 1.5em;
+    line-height: 55px;
+    color: #645B5B;
+  }
+  .bottom-cards h2 {
+    font-size: 2em;
+    padding-bottom: 15px;
+  }
+  .more-links {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #565A47CC;
+  }
+  .contact-link {
+    padding-bottom: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #565A47CC;
+  }
+  .about-title {
+    font-size: 5em;
+    line-height: 90%;
+    padding-top: 2em;
+    padding-bottom: 30px;
+  }
+  .about-description {
+    width: 60%;
+  }
+  .lets-talk {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    bottom: 60px;
+    right: 40px;
+  }
+  .lest-elements {
+    padding: 5px 20px;
+    text-decoration: none;
+    color: black;
+  }
+  .copyright {
+    position: absolute;
+    bottom: 20px;
+    right: 40%;
+    left: 40%;
+    text-align: center;
+  }
 }
 
-.name {
-  font-size: 3em;
-  line-height: 40px;
-  font-weight: 600;
-  color: #B6B9AB;
-}
-
-.profession {
-  font-size: 1.5em;
-  line-height: 55px;
-  color: #645B5B;
-}
-
-.bottom-cards h2 {
-  font-size: 2em;
-  padding-bottom: 15px;
-}
-
-.more-links {
-  font-size: 18px;
-  font-weight: bold;
-  text-decoration: none;
-  color: #565A47CC;
-}
-
-.contact-link {
-  font-size: 18px;
-  font-weight: bold;
-  text-decoration: underline;
-  color: #565A47CC;
-}
-
-.about-title {
-  font-size: 5em;
-  line-height: 90%;
-  padding-top: 2em;
-  padding-bottom: 30px;
-}
-
-.about-description {
-  width: 60%;
-}
-
-.lets-talk {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: absolute;
-  bottom: 60px;
-  right: 40px;
-}
-
-.lest-elements {
-  padding: 5px 20px;
-  text-decoration: none;
-  color: black;
-}
-
-.copyright {
-  position: absolute;
-  bottom: 20px;
-  right: 40%;
-  left: 40%;
-  text-align: center;
+@media only screen and (max-width: 768px) {
+  .welcome-main-title {
+    font-size: 3em;
+    line-height: 55px;
+    font-weight: 600;
+    color: #A6AE8A;
+  }
+  .welcome-hi {
+    font-family: 'Caveat', cursive;
+    font-size: 1.5em;
+    padding-bottom: 10px;
+    font-weight: light;
+  }
 }
 
 .pages {
@@ -241,6 +255,29 @@
   }
   .projects {
     display: none;
+  }
+  .welcome-description {
+    display: none;
+  }
+  .welcome {
+    position: absolute;
+    top: 70%;
+    width: 80%;
+  }
+  .welcome-image {
+    position: absolute;
+    top: 20%;
+    right: 10%;
+  }
+  .contact-link {
+    position: absolute;
+    bottom: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
   }
 }
 

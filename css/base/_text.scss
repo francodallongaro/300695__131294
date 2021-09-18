@@ -1,76 +1,95 @@
-.welcome-main-title {
-  font-size: 5em;
-  line-height: 55px;
-  font-weight:600;
-  color: #A6AE8A;
-}
+@media only screen and (min-width: $break-1) {
+  .welcome-main-title {
+    font-size: 5em;
+    line-height: 55px;
+    font-weight:600;
+    color: #A6AE8A;
+  }
 
-.welcome-hi{
-  font-family: 'Caveat', cursive;
-  font-size: 2em;
-  padding-bottom: 10px;
-  font-weight:light;
-}
-
-.name {
-  font-size: 3em;
-  line-height: 40px;
-  font-weight:600;
-  color: #B6B9AB;
-}
-
-.profession{
-  font-size: 1.5em;
-  line-height: 55px;
-  color: #645B5B;
-}
-
-.bottom-cards{
-  h2{
+  .welcome-hi{
+    font-family: 'Caveat', cursive;
     font-size: 2em;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
+    font-weight:light;
+  }
+
+  .name {
+    font-size: 3em;
+    line-height: 40px;
+    font-weight:600;
+    color: #B6B9AB;
+  }
+
+  .profession{
+    font-size: 1.5em;
+    line-height: 55px;
+    color: #645B5B;
+  }
+
+  .bottom-cards{
+    h2{
+      font-size: 2em;
+      padding-bottom: 15px;
+    }
+  }
+
+  .more-links{
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #565A47CC;
+  }
+
+  .contact-link{
+    padding-bottom: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #565A47CC;
+  }
+
+  .about-title {
+    font-size: 5em;
+    line-height: 90%;
+    padding-top: 2em;
+    padding-bottom: 30px;
+  }
+  .about-description {
+    width: 60%;
+  }
+
+  .lets-talk {
+    display: flex;
+    position: absolute;
+    bottom: 60px;
+    right: 40px;
+  }
+  .lest-elements {
+    padding: 5px 20px;
+    text-decoration: none;
+    color: black;
+  }
+  .copyright {
+    position: absolute;
+    bottom: 20px;
+    right: 40%;
+    left: 40%;
+    text-align: center;
   }
 }
 
-.more-links{
-  font-size: 18px;
-  font-weight: bold;
-  text-decoration: none;
-  color: #565A47CC;
-}
+@media only screen and (max-width: $break-1) {
+  .welcome-main-title {
+    font-size: 3em;
+    line-height: 55px;
+    font-weight:600;
+    color: #A6AE8A;
+  }
 
-.contact-link{
-  font-size: 18px;
-  font-weight: bold;
-  text-decoration: underline;
-  color: #565A47CC;
-}
-
-.about-title {
-  font-size: 5em;
-  line-height: 90%;
-  padding-top: 2em;
-  padding-bottom: 30px;
-}
-.about-description {
-  width: 60%;
-}
-
-.lets-talk {
-  display: flex;
-  position: absolute;
-  bottom: 60px;
-  right: 40px;
-}
-.lest-elements {
-  padding: 5px 20px;
-  text-decoration: none;
-  color: black;
-}
-.copyright {
-  position: absolute;
-  bottom: 20px;
-  right: 40%;
-  left: 40%;
-  text-align: center;
+  .welcome-hi{
+    font-family: 'Caveat', cursive;
+    font-size: 1.5em;
+    padding-bottom: 10px;
+    font-weight:light;
+  }
 }

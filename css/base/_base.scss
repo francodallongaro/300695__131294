@@ -21,7 +21,10 @@
   }
 }
 
-#home,
-#about-me {
+@media only screen and (max-width: $break-1) {
 
+  #home,
+  #about-me {
+    padding: 0 5%;
+  }
 }

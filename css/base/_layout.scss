@@ -55,10 +55,24 @@
   .projects {
     display: none;
   }
+  .welcome-description {
+    display: none;
+  }
+  .welcome{
+    position: absolute;
+    top: 70%;
+    width: 80%;
 
+  }
   .welcome-image{
-    // position: absolute;
-    // top: 20%;
-    // right: 10%;
+    position: absolute;
+    top: 20%;
+    right: 10%;
+  }
+  .contact-link{
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    justify-content: space-evenly;
   }
 }
