@@ -71,9 +71,8 @@
     border-top-left-radius: 200px;
   }
   .welcome-image {
-    -o-object-fit: cover;
-       object-fit: cover;
-    background-image: url(assets/img/camila.jpeg);
+    background: url(../assets/img/camila.jpeg) no-repeat center center;
+    background-size: cover;
   }
   .welcome-description {
     background: #f7f7f7;
