@@ -1,9 +1,15 @@
-.welcome-title {
-  position: absolute;
-  bottom: 10%;
-  left: 8%;
+.welcome-main-title {
   font-size: 5em;
-  line-height: 73.2%;
+  line-height: 55px;
+  font-weight:600;
+  color: #A6AE8A;
+}
+
+.welcome-hi{
+  font-family: 'Caveat', cursive;
+  font-size: 2em;
+  padding-bottom: 10px;
+  font-weight:light;
 }
 
 .about-title {
