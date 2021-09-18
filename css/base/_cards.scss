@@ -23,7 +23,7 @@
 @media only screen and (min-width: $break-1) {
   .welcome {
     background: $color-1;
-    border-top-left-radius: 200px;
+    border-top-left-radius: 150px;
   }
   .welcome-image {
     background: url(../assets/img/camila.jpeg) no-repeat center center;
@@ -36,7 +36,7 @@
     background: $color-5;
   }
   .about-me {
-    border-bottom-left-radius: 200px;
+    border-bottom-left-radius: 150px;
     background: $color-2;
     &:hover{
       box-shadow: 0 0 32px 3px rgba(0, 0, 0, 0.267);

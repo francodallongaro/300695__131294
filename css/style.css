@@ -46,6 +46,25 @@
   color: #645B5B;
 }
 
+.bottom-cards h2 {
+  font-size: 2em;
+  padding-bottom: 15px;
+}
+
+.more-links {
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #565A47CC;
+}
+
+.contact-link {
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: underline;
+  color: #565A47CC;
+}
+
 .about-title {
   font-size: 5em;
   line-height: 90%;
@@ -106,7 +125,7 @@
 @media only screen and (min-width: 768px) {
   .welcome {
     background: rgba(233, 238, 217, 0.5);
-    border-top-left-radius: 200px;
+    border-top-left-radius: 150px;
   }
   .welcome-image {
     background: url(../assets/img/camila.jpeg) no-repeat center center;
@@ -116,7 +135,7 @@
     background: #f7f7f7;
   }
   .about-me {
-    border-bottom-left-radius: 200px;
+    border-bottom-left-radius: 150px;
     background: #eff4dd;
   }
   .about-me:hover {
