@@ -8,4 +8,36 @@
 .grid {
   grid-template-columns: repeat(12, auto);
   grid-template-rows: repeat(2, auto);
+  grid-gap: 40px;
+  grid-auto-flow: row;
+}
+
+.welcome {
+  grid-column: 1 / 5;
+  grid-row: 1 / 2;
+}
+
+.welcome-image{
+  grid-column: 5 / 8;
+  grid-row: 1 / 2;
+}
+
+.welcome-description{
+  grid-column: 8 / 12;
+  grid-row: 1 / 2;
+}
+
+.about-me{
+  grid-column: span 4;
+  grid-row: 2 / 3;
+}
+
+.contact{
+  grid-column: span 4;
+  grid-row: 2 / 3;
+}
+
+.projects{
+  grid-column: span 4;
+  grid-row: 2 / 3;
 }
