@@ -3,7 +3,7 @@
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .wireframe {
@@ -27,6 +27,61 @@
 }
 
 @media only screen and (min-width: 768px) {
+  nav > ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+  }
+  .navbar-element {
+    padding: 10px 30px;
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  nav {
+    width: 100%;
+    padding-top: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: fixed;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .navbar-element {
+    text-decoration: none;
+    color: black;
+    padding: 3px 30px;
+    border-radius: 10px;
+  }
+  .nav-selected {
+    background: #F3F5EC;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .header-1 {
+    font-size: 4em;
+    font-weight: 500;
+    line-height: 55px;
+    color: black;
+  }
+  .header-2 {
+    font-size: 3em;
+    font-weight: 500;
+    line-height: 40px;
+    color: black;
+  }
   .welcome-main-title {
     font-size: 5em;
     line-height: 55px;
@@ -34,7 +89,7 @@
     color: #A6AE8A;
   }
   .welcome-hi {
-    font-family: 'Caveat', cursive;
+    font-family: "Caveat", cursive;
     font-size: 2em;
     padding-bottom: 10px;
     font-weight: light;
@@ -138,7 +193,7 @@
 
 @media only screen and (min-width: 768px) {
   .welcome {
-    background: #D6E1D3;
+    background: #F3F5EC;
     border-top-left-radius: 150px;
   }
   .welcome-image {
@@ -146,7 +201,7 @@
     background-size: cover;
   }
   .welcome-description {
-    background: #f7f7f7;
+    background: #F6F6F6;
   }
   .about-me {
     border-bottom-left-radius: 150px;
@@ -167,7 +222,7 @@
   }
   .projects {
     border-bottom-right-radius: 350px;
-    background: #D6DDBE;
+    background: #D6E1D3;
   }
   .projects:hover {
     box-shadow: 0 0 32px 3px rgba(0, 0, 0, 0.267);
@@ -278,49 +333,6 @@
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  nav > ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    position: absolute;
-    top: 5%;
-    right: 5%;
-  }
-  .navbar-element {
-    padding: 10px 30px;
-    text-decoration: none;
-    list-style-type: none;
-    color: black;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  nav {
-    width: 100%;
-    padding-top: 15px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    position: fixed;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .navbar-element {
-    text-decoration: none;
-    color: black;
-    padding: 3px 30px;
-    border-radius: 10px;
-  }
-  .nav-selected {
-    background: #D6E1D3;
   }
 }
 /*# sourceMappingURL=style.css.map */
