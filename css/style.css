@@ -138,7 +138,7 @@
 
 @media only screen and (min-width: 768px) {
   .welcome {
-    background: rgba(233, 238, 217, 0.5);
+    background: #D6E1D3;
     border-top-left-radius: 150px;
   }
   .welcome-image {
@@ -158,7 +158,7 @@
     -moz-box-shadow: 0 0 32px 3px rgba(0, 0, 0, 0.267);
   }
   .contact {
-    background: rgba(209, 223, 202, 0.7);
+    background: #DEE4CB;
   }
   .contact:hover {
     box-shadow: 0 0 32px 3px rgba(0, 0, 0, 0.267);
@@ -167,7 +167,7 @@
   }
   .projects {
     border-bottom-right-radius: 350px;
-    background: rgba(214, 221, 190, 0.8);
+    background: #D6DDBE;
   }
   .projects:hover {
     box-shadow: 0 0 32px 3px rgba(0, 0, 0, 0.267);
@@ -320,7 +320,7 @@
     border-radius: 10px;
   }
   .nav-selected {
-    background: rgba(233, 238, 217, 0.5);
+    background: #D6E1D3;
   }
 }
 /*# sourceMappingURL=style.css.map */
