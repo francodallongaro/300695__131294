@@ -21,6 +21,35 @@
       font-weight: bold;
     }
   }
+
+  .lateral-nav {
+    position: fixed;
+    top: 25vh;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    .dot {
+      height: 15px;
+      width: 15px;
+      border: 1px solid $color-10;
+      border-radius: 50%;
+      display: inline-block;
+    }
+    .dot-selected {
+      background-color: $color-10;
+    }
+    .fa-angle-up, .fa-angle-down {
+      color: $color-10;
+      padding: 5px 8px;
+      border: 1px solid $color-10;
+      border-radius: 50%;
+    }
+  }
+
+
+
 }
 
 @media only screen and (max-width: $break-1) {

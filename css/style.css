@@ -12,7 +12,8 @@
 
 @media only screen and (min-width: 768px) {
   #home,
-  #about-me {
+  #about-me,
+  #projects-page {
     height: 100vh;
     width: 100vw;
     padding: 4% 7%;
@@ -44,6 +45,39 @@
   .nav-selected li {
     color: #A5AC8C;
     font-weight: bold;
+  }
+  .lateral-nav {
+    position: fixed;
+    top: 25vh;
+    height: 50vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .lateral-nav .dot {
+    height: 15px;
+    width: 15px;
+    border: 1px solid #A5AC8C;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .lateral-nav .dot-selected {
+    background-color: #A5AC8C;
+  }
+  .lateral-nav .fa-angle-up, .lateral-nav .fa-angle-down {
+    color: #A5AC8C;
+    padding: 5px 8px;
+    border: 1px solid #A5AC8C;
+    border-radius: 50%;
   }
 }
 
