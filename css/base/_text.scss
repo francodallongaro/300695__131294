@@ -47,7 +47,6 @@
       padding-bottom: 15px;
       color: $color-7;
       font-weight:600;
-
     }
     p {
       color: $color-7;
@@ -126,6 +125,13 @@
     right: 40%;
     left: 40%;
     text-align: center;
+  }
+
+  .project-title {
+    font-size: 35px;
+    padding-bottom: 15px;
+    color: $color-7;
+    font-weight:600;
   }
 }
 

@@ -36,6 +36,7 @@
       border: 1px solid $color-10;
       border-radius: 50%;
       display: inline-block;
+      cursor: pointer;
     }
     .dot-selected {
       background-color: $color-10;
@@ -45,6 +46,11 @@
       padding: 5px 8px;
       border: 1px solid $color-10;
       border-radius: 50%;
+      &:hover{
+        background-color: $color-10;
+        color: $color-1;
+        cursor: pointer;
+      }
     }
   }
 

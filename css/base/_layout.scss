@@ -86,6 +86,29 @@
     }
   }
 
+  .project-container {
+    height: 85%;
+    width: 95%;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    border-top-left-radius: 450px;
+    background-color: $color-3;
+    .project-number {
+      position: absolute;
+      top: 5%;
+      right: 5%;
+      font-size: 70px;
+      color: $color-9;
+    }
+    .project-info {
+      position: absolute;
+      left: 20%;
+      top: 30%;
+      width: 50%;
+    }
+  }
+
 
 
 }

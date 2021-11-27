@@ -22,7 +22,8 @@
 
 @media only screen and (max-width: 768px) {
   #home,
-  #about-me {
+  #about-me,
+  #projects-page {
     padding: 0 5%;
   }
 }
@@ -69,6 +70,7 @@
     border: 1px solid #A5AC8C;
     border-radius: 50%;
     display: inline-block;
+    cursor: pointer;
   }
   .lateral-nav .dot-selected {
     background-color: #A5AC8C;
@@ -78,6 +80,11 @@
     padding: 5px 8px;
     border: 1px solid #A5AC8C;
     border-radius: 50%;
+  }
+  .lateral-nav .fa-angle-up:hover, .lateral-nav .fa-angle-down:hover {
+    background-color: #A5AC8C;
+    color: #F3F5EC;
+    cursor: pointer;
   }
 }
 
@@ -219,6 +226,12 @@
     right: 40%;
     left: 40%;
     text-align: center;
+  }
+  .project-title {
+    font-size: 35px;
+    padding-bottom: 15px;
+    color: #3C4043;
+    font-weight: 600;
   }
 }
 
@@ -421,6 +434,28 @@
     background-color: #DEE4CB;
     position: relative;
     top: 70px;
+  }
+  .project-container {
+    height: 85%;
+    width: 95%;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    border-top-left-radius: 450px;
+    background-color: #eff4dd;
+  }
+  .project-container .project-number {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 70px;
+    color: #737668;
+  }
+  .project-container .project-info {
+    position: absolute;
+    left: 20%;
+    top: 30%;
+    width: 50%;
   }
 }
 
