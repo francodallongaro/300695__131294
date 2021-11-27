@@ -74,7 +74,7 @@
     font-size: 4em;
     font-weight: 500;
     line-height: 55px;
-    color: black;
+    color: #A5AC8C;
   }
   .header-2 {
     font-size: 3em;
@@ -93,34 +93,42 @@
     font-size: 2em;
     padding-bottom: 10px;
     font-weight: light;
+    color: #3C4043;
   }
   .name {
-    font-size: 3em;
+    font-size: 42px;
     line-height: 40px;
-    font-weight: 600;
-    color: #B6B9AB;
+    font-weight: 500;
+    color: #A5AC8C;
   }
   .profession {
-    font-size: 1.5em;
+    font-size: 20px;
     line-height: 55px;
-    color: #645B5B;
+    color: #3C4043;
+    font-weight: 400;
   }
   .bottom-cards h2 {
-    font-size: 2em;
+    font-size: 35px;
     padding-bottom: 15px;
+    color: #3C4043;
+    font-weight: 600;
+  }
+  .bottom-cards p {
+    color: #3C4043;
+    font-weight: 400;
   }
   .more-links {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     text-decoration: none;
-    color: #565A47CC;
+    color: #737668;
   }
   .contact-link {
     padding-bottom: 5px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
-    text-decoration: underline;
-    color: #565A47CC;
+    text-decoration: none;
+    color: #737668;
   }
   .about-title {
     font-size: 5em;
@@ -208,26 +216,26 @@
     background: #eff4dd;
   }
   .about-me:hover {
-    box-shadow: 0 0 32px 3px rgba(0, 0, 0, 0.267);
-    -webkit-box-shadow: 0 0 32px 3px rgba(0, 0, 0, 0.267);
-    -moz-box-shadow: 0 0 32px 3px rgba(0, 0, 0, 0.267);
+    box-shadow: 0 0 20px 3px #A6AE8A;
+    -webkit-box-shadow: 0 0 20px 3px #A6AE8A;
+    -moz-box-shadow: 0 0 20px 3px #A6AE8A;
   }
   .contact {
-    background: #DEE4CB;
+    background: #D6E1D3;
   }
   .contact:hover {
-    box-shadow: 0 0 32px 3px rgba(0, 0, 0, 0.267);
-    -webkit-box-shadow: 0 0 32px 3px rgba(0, 0, 0, 0.267);
-    -moz-box-shadow: 0 0 32px 3px rgba(0, 0, 0, 0.267);
+    box-shadow: 0 0 20px 3px #A6AE8A;
+    -webkit-box-shadow: 0 0 20px 3px #A6AE8A;
+    -moz-box-shadow: 0 0 20px 3px #A6AE8A;
   }
   .projects {
     border-bottom-right-radius: 350px;
-    background: #D6E1D3;
+    background: #DEE4CB;
   }
   .projects:hover {
-    box-shadow: 0 0 32px 3px rgba(0, 0, 0, 0.267);
-    -webkit-box-shadow: 0 0 32px 3px rgba(0, 0, 0, 0.267);
-    -moz-box-shadow: 0 0 32px 3px rgba(0, 0, 0, 0.267);
+    box-shadow: 0 0 20px 3px #A6AE8A;
+    -webkit-box-shadow: 0 0 20px 3px #A6AE8A;
+    -moz-box-shadow: 0 0 20px 3px #A6AE8A;
   }
 }
 

@@ -4,7 +4,7 @@
     font-size: 4em;
     font-weight:500;
     line-height: 55px;
-    color: $color-8;
+    color: $color-10;
   }
   .header-2 {
     font-size: 3em;
@@ -24,41 +24,50 @@
     font-size: 2em;
     padding-bottom: 10px;
     font-weight:light;
+    color: $color-7;
   }
 
   .name {
-    font-size: 3em;
+    font-size: 42px;
     line-height: 40px;
-    font-weight:600;
-    color: #B6B9AB;
+    font-weight:500;
+    color: $color-10;
   }
 
   .profession{
-    font-size: 1.5em;
+    font-size: 20px;
     line-height: 55px;
-    color: #645B5B;
+    color: $color-7;
+    font-weight:400;
   }
 
   .bottom-cards{
     h2{
-      font-size: 2em;
+      font-size: 35px;
       padding-bottom: 15px;
+      color: $color-7;
+      font-weight:600;
+
+    }
+    p {
+      color: $color-7;
+      font-weight:400;
     }
   }
 
   .more-links{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     text-decoration: none;
-    color: #565A47CC;
+    color: $color-9;
   }
 
   .contact-link{
     padding-bottom: 5px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
-    text-decoration: underline;
-    color: #565A47CC;
+    text-decoration: none;
+    color: $color-9;
   }
 
   .about-title {
