@@ -4,7 +4,7 @@
 @media only screen and (min-width: $break-1) {
   nav > ul {
     display: flex;
-    position: absolute;
+    position: fixed;
     top: 5%;
     right: 5%;
   }

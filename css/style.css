@@ -13,7 +13,6 @@
 @media only screen and (min-width: 768px) {
   #home,
   #about-me {
-    height: 100vh;
     width: 100vw;
     padding: 4% 7%;
   }
@@ -31,7 +30,7 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    position: absolute;
+    position: fixed;
     top: 5%;
     right: 5%;
   }
@@ -166,7 +165,7 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    position: absolute;
+    position: fixed;
     bottom: 60px;
     right: 40px;
   }
@@ -176,7 +175,7 @@
     color: black;
   }
   .copyright {
-    position: absolute;
+    position: fixed;
     bottom: 20px;
     right: 40%;
     left: 40%;
@@ -363,13 +362,15 @@
             flex-direction: row;
   }
   #about-me .card {
-    margin: 20px;
-    padding: 60px 40px 40px 40px;
+    margin: 15px;
+    padding: 60px 35px 35px 35px;
     width: 25%;
     border-radius: 40px;
   }
   #about-me .card:first-child {
     background-color: #F6F6F6;
+    position: relative;
+    top: 50px;
   }
   #about-me .card:nth-child(2) {
     background-color: #eff4dd;
@@ -379,6 +380,8 @@
   }
   #about-me .card:nth-child(4) {
     background-color: #DEE4CB;
+    position: relative;
+    top: 70px;
   }
 }
 

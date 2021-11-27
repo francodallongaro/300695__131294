@@ -63,14 +63,15 @@
       flex-direction: row;
     }
     .card {
-      margin: 20px;
-      padding: 60px 40px 40px 40px;
-      // height: 100%;
+      margin: 15px;
+      padding: 60px 35px 35px 35px;
       width: 25%;
       border-radius: 40px;
     }
     .card:first-child {
       background-color: $color-2;
+      position: relative;
+      top: 50px;
     }
     .card:nth-child(2) {
       background-color: $color-3;
@@ -80,6 +81,8 @@
     }
     .card:nth-child(4) {
       background-color: $color-5;
+      position: relative;
+      top: 70px;
     }
   }
 
