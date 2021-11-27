@@ -149,6 +149,19 @@
     color: #A5AC8C;
     font-weight: bold;
   }
+  .card-title {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 30px;
+    color: #3C4043;
+  }
+  .card-description {
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3C4043;
+  }
   .lets-talk {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -333,6 +346,39 @@
   }
   .about-paragraphs div {
     width: 50%;
+  }
+  #about-me .cards-container {
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #about-me .card {
+    margin: 20px;
+    padding: 60px 40px 40px 40px;
+    width: 25%;
+    border-radius: 40px;
+  }
+  #about-me .card:first-child {
+    background-color: #F6F6F6;
+  }
+  #about-me .card:nth-child(2) {
+    background-color: #eff4dd;
+  }
+  #about-me .card:nth-child(3) {
+    background-color: #F3F5EC;
+  }
+  #about-me .card:nth-child(4) {
+    background-color: #DEE4CB;
   }
 }
 
