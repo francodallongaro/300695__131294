@@ -233,6 +233,12 @@
     color: #3C4043;
     font-weight: 600;
   }
+  .project-description {
+    color: #3C4043;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -455,7 +461,10 @@
     position: absolute;
     left: 20%;
     top: 30%;
-    width: 50%;
+    width: 45%;
+  }
+  .project-container .project-info .project-read-more {
+    padding-top: 60px;
   }
 }
 
