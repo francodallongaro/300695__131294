@@ -131,13 +131,23 @@
     color: #737668;
   }
   .about-title {
-    font-size: 5em;
-    line-height: 90%;
-    padding-top: 2em;
+    font-size: 70px;
+    line-height: 100%;
+    font-weight: 500;
+    padding-top: 1em;
     padding-bottom: 30px;
   }
+  .about-subtitle {
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-weight: bold;
+  }
   .about-description {
-    width: 60%;
+    width: 90%;
+  }
+  .about-green {
+    color: #A5AC8C;
+    font-weight: bold;
   }
   .lets-talk {
     display: -webkit-box;
@@ -307,6 +317,23 @@
     -ms-grid-row-span: 1;
     grid-row: 2 / 3;
   }
+  .about-paragraphs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-line-pack: start;
+        align-content: start;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .about-paragraphs div {
+    width: 50%;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -341,6 +368,20 @@
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
+  }
+  .about-paragraphs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-line-pack: start;
+        align-content: start;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
   }
 }
 /*# sourceMappingURL=style.css.map */

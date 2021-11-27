@@ -43,6 +43,16 @@
     grid-column: span 4;
     grid-row: 2 / 3;
   }
+
+  .about-paragraphs {
+    display: flex;
+    justify-content: space-between;
+    align-content: start;
+    flex-direction: row;
+    div {
+      width: 50%;
+    }
+  }
 }
 @media only screen and (max-width: $break-1) {
 
@@ -74,5 +84,12 @@
     bottom: 10px;
     display: flex;
     justify-content: space-evenly;
+  }
+
+  .about-paragraphs {
+    display: flex;
+    justify-content: space-between;
+    align-content: start;
+    flex-direction: row;
   }
 }

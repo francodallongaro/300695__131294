@@ -71,13 +71,25 @@
   }
 
   .about-title {
-    font-size: 5em;
-    line-height: 90%;
-    padding-top: 2em;
+    font-size: 70px;
+    line-height: 100%;
+    font-weight: 500;
+    padding-top: 1em;
     padding-bottom: 30px;
   }
+
+  .about-subtitle {
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-weight: bold;
+  }
   .about-description {
-    width: 60%;
+    width: 90%;
+  }
+
+  .about-green {
+    color: $color-10;
+    font-weight: bold;
   }
 
   .lets-talk {
