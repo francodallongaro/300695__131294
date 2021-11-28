@@ -121,19 +121,25 @@
 // CELU
 @media only screen and (max-width: $break-1) {
 
+  footer {
+    display: none;
+  }
+
   .mobile-description {
     padding-top: 20px;
   }
 
-  .contact-mobile {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    position: fixed;
-    bottom: 20px;
-    width: 100%;
-    div {
-      padding: 0 10px;
+  #home {
+    .contact-mobile {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      position: fixed;
+      bottom: 20px;
+      width: 100%;
+      div {
+        padding: 0 10px;
+      }
     }
   }
 
@@ -174,7 +180,9 @@
       justify-content: space-between;
       align-content: start;
       flex-direction: column;
-      height: 200vh;
+      div {
+        margin-bottom: 50px;
+      }
     }
 
     .cards-container {
@@ -184,12 +192,15 @@
       flex-wrap: nowrap;
       overflow-x: auto;
       overflow-y: hidden;
+      margin-bottom: 40px;
     }
     .card {
-      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
       margin: 15px;
       padding: 60px 35px 35px 35px;
-      max-width: 90%;
+      max-width: 70%;
       border-radius: 40px;
       flex-basis: 90%;
       flex-grow: 0;
@@ -206,6 +217,17 @@
     }
     .card:nth-child(4) {
       background-color: $color-5;
+    }
+
+    .contact-mobile {
+      margin-bottom: 20px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 100%;
+      div {
+        padding: 0 10px;
+      }
     }
   }
 }
