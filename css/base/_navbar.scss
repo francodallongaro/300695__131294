@@ -2,7 +2,7 @@
 
 
 @media only screen and (min-width: $break-1) {
-  nav > ul {
+  nav {
     display: flex;
     position: fixed;
     top: 5%;
@@ -16,10 +16,8 @@
     color: black;
   }
   .nav-selected {
-    li {
       color: $color-10;
       font-weight: bold;
-    }
   }
 
   .lateral-nav {
@@ -53,9 +51,6 @@
       }
     }
   }
-
-
-
 }
 
 @media only screen and (max-width: $break-1) {

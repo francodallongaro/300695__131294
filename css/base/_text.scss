@@ -105,7 +105,6 @@
     font-size: 16px;
     line-height: 24px;
     color: $color-7;
-
   }
 
   .lets-talk {
@@ -177,5 +176,37 @@
     font-weight: bold;
     text-decoration: none;
     color: $color-9;
+  }
+
+  .about-title {
+    font-size: 32px;
+    line-height: 100%;
+    font-weight: 500;
+  }
+
+  .about-subtitle {
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-weight: bold;
+  }
+
+  .about-green {
+    color: $color-10;
+    font-weight: bold;
+  }
+
+  .card-title {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 30px;
+    color: $color-7;
+  }
+
+  .card-description {
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: $color-7;
   }
 }
