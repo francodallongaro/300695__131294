@@ -254,6 +254,11 @@
     padding-bottom: 10px;
     font-weight: light;
   }
+  .header-1 {
+    color: #A5AC8C;
+    font-size: 70px;
+    line-height: 60px;
+  }
 }
 
 .pages {
@@ -321,7 +326,8 @@
 
 @media only screen and (max-width: 768px) {
   .welcome-image {
-    background: url(../assets/img/camila.jpeg);
+    background: url(../assets/img/camila.jpeg) no-repeat center center;
+    background-size: cover;
   }
 }
 
@@ -488,6 +494,8 @@
   }
   .welcome-image {
     position: absolute;
+    width: 160px;
+    height: 200px;
     top: 20%;
     right: 10%;
   }

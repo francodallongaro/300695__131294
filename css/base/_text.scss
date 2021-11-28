@@ -142,6 +142,8 @@
 
 }
 
+
+//  CELU
 @media only screen and (max-width: $break-1) {
   .welcome-main-title {
     font-size: 3em;
@@ -155,5 +157,11 @@
     font-size: 1.5em;
     padding-bottom: 10px;
     font-weight:light;
+  }
+
+  .header-1 {
+    color: $color-10;
+    font-size: 70px;
+    line-height: 60px;
   }
 }

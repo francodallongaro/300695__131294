@@ -5,6 +5,7 @@
   align-items: center;
 }
 
+// COMPU
 @media only screen and (min-width: $break-1) {
 .grid {
     display: grid;
@@ -111,12 +112,10 @@
       }
     }
   }
-
-
-
 }
-@media only screen and (max-width: $break-1) {
 
+// CELU
+@media only screen and (max-width: $break-1) {
   .about-me {
     display: none;
   }
@@ -137,6 +136,8 @@
   }
   .welcome-image{
     position: absolute;
+    width: 160px;
+    height: 200px;
     top: 20%;
     right: 10%;
   }

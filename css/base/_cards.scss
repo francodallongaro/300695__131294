@@ -67,6 +67,10 @@
 
 @media only screen and (max-width: $break-1) {
   .welcome-image {
-    background: url(../assets/img/camila.jpeg);
+    background: url(../assets/img/camila.jpeg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 }
