@@ -20,14 +20,6 @@
   }
 }
 
-@media only screen and (max-width: 768px) {
-  #home,
-  #about-me,
-  #projects-page {
-    padding: 0 5%;
-  }
-}
-
 @media only screen and (min-width: 768px) {
   nav > ul {
     display: -webkit-box;
@@ -259,6 +251,18 @@
     font-size: 70px;
     line-height: 60px;
   }
+  .mobile-description {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #3C4043;
+  }
+  .contact-link {
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #737668;
+  }
 }
 
 .pages {
@@ -410,6 +414,9 @@
   .about-paragraphs div {
     width: 50%;
   }
+  .mobile-description, .contact-mobile {
+    display: none;
+  }
   #about-me .cards-container {
     height: 100vh;
     display: -webkit-box;
@@ -475,6 +482,27 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .mobile-description {
+    padding-top: 20px;
+  }
+  .contact-mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
+  }
+  .contact-mobile div {
+    padding: 0 10px;
+  }
   .about-me {
     display: none;
   }
@@ -489,8 +517,8 @@
   }
   .welcome {
     position: absolute;
-    top: 70%;
-    width: 80%;
+    top: 80%;
+    width: 90%;
   }
   .welcome-image {
     position: absolute;
@@ -498,16 +526,6 @@
     height: 200px;
     top: 20%;
     right: 10%;
-  }
-  .contact-link {
-    position: absolute;
-    bottom: 10px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
   }
   .about-paragraphs {
     display: -webkit-box;
