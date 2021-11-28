@@ -255,8 +255,9 @@
   }
   .header-1 {
     color: #A5AC8C;
-    font-size: 70px;
-    line-height: 60px;
+    font-size: 55px;
+    line-height: 50px;
+    font-weight: 600;
   }
   .mobile-description {
     font-size: 16px;
@@ -265,8 +266,8 @@
     color: #3C4043;
   }
   .contact-link {
-    font-size: 16px;
-    font-weight: bold;
+    font-size: 14px;
+    font-weight: normal;
     text-decoration: none;
     color: #737668;
   }
@@ -285,15 +286,15 @@
     font-weight: bold;
   }
   .card-title {
-    font-weight: 600;
-    font-size: 30px;
-    line-height: 30px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
     color: #3C4043;
   }
   .card-description {
     padding-top: 20px;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 24px;
     color: #3C4043;
   }
@@ -614,7 +615,7 @@
         -ms-flex-pack: center;
             justify-content: center;
     margin: 15px;
-    padding: 60px 35px 35px 35px;
+    padding: 40px 30px 30px 30px;
     max-width: 70%;
     border-radius: 40px;
     -ms-flex-preferred-size: 90%;
